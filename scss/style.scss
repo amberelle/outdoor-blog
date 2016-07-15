@@ -1,0 +1,17 @@
+@import "bourbon/bourbon.scss";
+@import "neat/neat.scss";
+
+$lt-text:       white;
+$drk-text:      black;
+
+.navbar{
+  @include span-columns(12);
+  background-color: black;
+  height: 30%;
+  li{
+    display:inline;
+    color:$lt-text;
+    padding: 15px;
+    float:right;
+  }
+}

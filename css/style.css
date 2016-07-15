@@ -1,0 +1,22 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+.navbar {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  background-color: black;
+  height: 30%; }
+  .navbar:last-child {
+    margin-right: 0; }
+  .navbar li {
+    display: inline;
+    color: white;
+    padding: 15px;
+    float: right; }
+
+/*# sourceMappingURL=style.css.map */
