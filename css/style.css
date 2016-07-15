@@ -19,4 +19,16 @@ html {
     padding: 15px;
     float: right; }
 
+img {
+  width: 100%; }
+
+h1 {
+  text-align: center; }
+
+h2 {
+  text-align: center; }
+
+#logo {
+  width: 50%; }
+
 /*# sourceMappingURL=style.css.map */
