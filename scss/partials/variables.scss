@@ -1,0 +1,14 @@
+$lt-text:       white;
+$drk-text:      black;
+$med-text:      gray;
+$lg-font:      'Archivo Narrow', sans-serif;
+$sm-font:      'Raleway', sans-serif;
+$top-margin:   5em;
+
+@mixin border-radius($radius){
+  border-top-radius: $radius;
+  border-right-radius: $radius;
+  border-bottom-radius: $radius;
+  border-left-radius: $radius;
+  border-radius:$radius;
+}

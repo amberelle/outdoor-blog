@@ -1,0 +1,38 @@
+
+
+body{
+  background-color: white;
+  margin:3%;
+}
+.logo{
+  @include span-columns(12);
+  width:70%;
+  img{
+    margin-left: 25%;
+    padding-top:10%;
+  }
+}
+
+
+
+img{
+  width:100%;
+  @include border-radius(3px);
+}
+
+h1{
+  font-family: $lg-font;
+  text-align: center;
+  text-transform: uppercase;
+}
+h3{
+  font-family: $lg-font;
+  text-transform: uppercase;
+}
+h4{
+  font-family: $lg-font;
+  color: $med-text;
+}
+p{
+  font-family: $sm-font;
+}
